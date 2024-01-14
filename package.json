@@ -22,7 +22,7 @@
   "author": "Favour Aransiola",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/Favour-Aransiola/jobber-shared.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
