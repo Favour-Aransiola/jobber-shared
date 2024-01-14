@@ -22,7 +22,7 @@ jobs:
               with: 
                 node-version: ${{matrix.node-version}}
             - run: npm ci
-            - run: npm build
+            - run: npm run build
             - run: |
                 echo @Favour-Aransiola:https://npm.pkg.github.com/ > build/.npmrc
                 echo '//npm.pkg.github.com/:_authToken=${NPM_TOKEN}' >> build/.npmrc
